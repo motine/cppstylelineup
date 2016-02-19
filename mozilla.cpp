@@ -16,7 +16,7 @@ public:
   ~Cowboy();
 
   void Shoot(std::string aWho);
-  int GetAge() { return mAge; } // minor functions have lower case
+  int GetAge() { return mAge; }
 
 protected:
   void MakeBang(const int& aHowMany);
