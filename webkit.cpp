@@ -3,8 +3,8 @@
 namespace western {
 
 enum ShootingHand {
-    kLeft,
-    kRight
+    Left,
+    Right
 };
 
 class Cowboy {
