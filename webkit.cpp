@@ -3,8 +3,8 @@
 namespace western {
 
 enum ShootingHand {
-    kLeft,
-    kRight
+    Left,
+    Right
 };
 
 class Cowboy {
@@ -14,7 +14,7 @@ public:
     ~Cowboy();
 
     void shoot(std::string who);
-    int getAge() { return m_age; } // minor functions have lower case
+    int age() { return m_age; } // minor functions have lower case
 
 protected:
     void makeBang(const int& howMany);
