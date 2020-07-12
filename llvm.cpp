@@ -20,7 +20,8 @@ protected:
   int Age;
 }
 
-Cowboy::Cowboy() : Age(45), GunCount(2) {
+Cowboy::Cowboy()
+    : Age(45), GunCount(2) {
   std::cout << "I am alive!" << std::endl;
 }
 
@@ -59,7 +60,7 @@ void someVeryLongMethod(int param1, int param2, int param3, int param4,
                         int param9, int param10) {
   std::cout << "So long..." << std::endl;
 }
-}
+} // namespace western
 
 using namespace western;
 
