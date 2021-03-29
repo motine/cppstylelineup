@@ -5,10 +5,12 @@ This is a comparison of the following coding styles:
 - [LLVM](http://llvm.org/docs/CodingStandards.html)
 - [Google](http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml)
 - [Chromium](http://www.chromium.org/developers/coding-style)
-- [Mozilla](https://developer.mozilla.org/en-US/docs/Developer_Guide/Coding_Style) and
+- [Mozilla](https://firefox-source-docs.mozilla.org/code-quality/coding-style/coding_style_cpp.html)
 - [WebKit](http://www.webkit.org/coding/coding-style.html)
+- [Microsoft](https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference?view=vs-2019)
+- [GNU](https://www.gnu.org/prep/standards/standards.html)
 
-Why those five? Because [clang-format](http://clang.llvm.org/docs/ClangFormat.html) supports them as base styles.
+Why those seven? Because [clang-format](http://clang.llvm.org/docs/ClangFormat.html) supports them as base styles.
 
 **This comparison only looks at formatting issues.**
 
