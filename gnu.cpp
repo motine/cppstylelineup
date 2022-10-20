@@ -28,7 +28,7 @@ protected:
 
   int GunCount;
   int Age;
-}
+};
 
 Cowboy::Cowboy ()
     : Age (45), GunCount (2)
