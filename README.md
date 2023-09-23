@@ -23,4 +23,4 @@ clang-format -i --style=LLVM llvm.cpp # style keys: LLVM, Google, Chromium, Mozi
 
 ## Contribute
 
-Please write me if you find a mistake (contact via my [profile](https://github.com/motine/)).
+Please open an issue or create a merge request  if you find a mistake.
