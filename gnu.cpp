@@ -93,9 +93,3 @@ main ()
   CurrentCowboy->shoot ("yourself");
   return 0;
 }
-
-// ADDITIONAL NOTES:
-// - LLVM uses spaces, not tabs
-// - Every source file should have a header that describes the purpose of it.
-// - LLVM prescribes the use of doxygen.
-// - #include <iostream> is forbidden and std::endl to be avoided.
