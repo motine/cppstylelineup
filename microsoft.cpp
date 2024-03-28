@@ -29,8 +29,7 @@ class Cowboy
     int Age;
 };
 
-Cowboy::Cowboy()
-    : Age(45), GunCount(2)
+Cowboy::Cowboy() : Age(45), GunCount(2)
 {
     std::cout << "I am alive!" << std::endl;
 }
